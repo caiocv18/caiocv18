@@ -7,30 +7,33 @@
   <div style="display: inline_block"><br>
     <h1 align="center">Melhores Tecnologias</h1>
       <!-- Java -->
-      <img align="center" height="30" width="40" alt="java-icon" src="https://user-images.githubusercontent.com/22065573/201505946-99228c97-ecaa-43d7-9a5b-eecd686089a9.svg">
+      <img align="center" height="40" width="40" alt="java-icon" src="images/java.png">
       <!-- Python -->
-    <img align="center" height="30" width="40" alt="nodejs-icon" src="https://user-images.githubusercontent.com/22065573/201505945-b5c34ab1-ec90-4ab3-9ec0-5d84c6651138.svg">
-      <!-- FastAPI -->
-      <img align="center" height="30" width="40" alt="fastapi-icon" src="https://user-images.githubusercontent.com/22065573/201506798-d6d9725c-2c4f-42d9-8f0f-63e90262dd92.svg">
-      <!-- java script -->
-      <img align="center" height="30" width="40" alt="nodejs-icon" src="https://user-images.githubusercontent.com/22065573/201505942-58492f8b-104f-4aab-8075-5f600ed72c9d.svg">
-      <!-- CSS -->
-      <img align="center" height="30" width="40" alt="nodejs-icon" src="https://user-images.githubusercontent.com/22065573/201505943-f3d203a7-7e83-43a7-93d9-c98f71d0a019.svg">
-      <!-- HTML5 -->
-      <img align="center" height="30" width="40" alt="nodejs-icon" src="https://user-images.githubusercontent.com/22065573/201505944-ba2929b7-5497-47c7-ac45-df0fd515c1ef.svg">
+      <img align="center" height="40" width="40" alt="nodejs-icon" src="images/python.png">
+      <!-- Spring Boot -->
+      <img align="center" height="40" width="40" alt="nodejs-icon" src="images/spring_boot.svg">
+      <!-- Dart -->
+      <img align="center" height="40" width="40" alt="nodejs-icon" src="images/dart.png">
+      <!-- Kotlin -->
+      <img align="center" height="40" width="40" alt="nodejs-icon" src="images/kotlin.png">
+      <!-- Flutter -->
+      <img align="center" height="40" width="40" alt="nodejs-icon" src="images/flutter.png">
+      <!-- Android -->
+      <img align="center" height="40" width="40" alt="nodejs-icon" src="images/android.png">
     <h1 align="center">Redes Sociais</h1>
       <!-- Email -->
-    <a href = "mailto: caioviniciuscv18@gmail.com">
-      <img  style="margin-right: 500px;" align="center" height="30" width="40" src="https://user-images.githubusercontent.com/22065573/201506242-66b27bd7-8c72-4baf-9e2b-d29fdb66a0bd.svg">
-    </a>
+      <a href = "mailto: caioviniciuscv18@gmail.com">
+        <img  align="center" height="40" width="40" src="images/email.png">
+      </a>
       <!-- Linkedin -->
-    <a href = "https://www.linkedin.com/in/caiocv18/">
-      <img  align="center" height="30" width="40" src="https://user-images.githubusercontent.com/22065573/201506311-5790387f-c38d-4997-a714-99eefec27255.svg">
-    </a>
+      <a href = "https://www.linkedin.com/in/caiocv18/">
+        <img  align="center" height="40" width="40" src="images/linkedin.png">
+      </a>
       <h1 align="center">Principais projetos</h1>
-       <h3><a href="https://github.com/caiocv18/projeto1">
-Human Resources Agency - Sistema de recursos Humanos</a></h3>
-      <h3><a href="https://github.com/caiocv18/projeto2">todo list - Lista de tarefas</a></h3>
-      <!-- <h3><a href="https://github.com/IgorBarreto?tab=repositories">Mais...</a></h3>-->
+       <h3><a href="https://github.com/caiocv18/duolibras">Flutter - Duolibras - TCC UCB</a></h3>
+       <h3><a href="https://github.com/caiocv18/projeto-perguntas">Flutter - Quizz Star Wars</h3>
+      <h3><a href="https://github.com/caiocv18/xadrez">Java - Xadrez</h3>
+      <h3><a href="https://github.com/caiocv18/CRUD-Deposito">Kotlin Android - Depósito</h3>
+      <h3><a href="https://github.com/caiocv18/alura_agenda">Kotlin Android - Agenda de Contatos</h3>
   </div>
 </div>

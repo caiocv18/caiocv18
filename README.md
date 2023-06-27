@@ -1,8 +1,9 @@
 <div align="center">
+  <a href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/tall/646ecbc6f4193ae10b46f07d?variant=dark" alt="roadmap.sh" align="center"/></a>
+  <a href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/wide/646ecbc6f4193ae10b46f07d?variant=dark" alt="roadmap.sh" align="center"/></a>
+
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=caiocv18&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiocv18&layout=compact&langs_count=16&theme=tokyonight"/>
-  
-  <a href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/tall/646ecbc6f4193ae10b46f07d?variant=dark" alt="roadmap.sh"/></a>
 </div>
 <br>
 <div  align="center"> 

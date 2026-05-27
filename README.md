@@ -118,10 +118,10 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=caiocv18&bg_color=1a0b2e&color=ff6ec7&line=00f5ff&point=ffce5c&area=true&hide_border=true&radius=10"/>
 </p>
 
-### 🐍 Contribuições
+### 🌌 Always coding
 
 <p align="center">
-  <img alt="snake animation" src="https://raw.githubusercontent.com/caiocv18/caiocv18/output/github-contribution-grid-snake-dark.svg"/>
+  <img alt="synthwave coding grid" src="./profile/synthwave-grid.svg"/>
 </p>
 
 ### 🛸 Repos em destaque
@@ -146,8 +146,8 @@
   <a href="https://github.com/caiocv18/alura_agenda">
     <img src="./profile/pin-alura_agenda.svg"/>
   </a>
-  <a href="https://github.com/caiocv18/agent-code-cli-java">
-    <img src="./profile/pin-agent-code-cli-java.svg"/>
+  <a href="https://github.com/caiocv18/vortex">
+    <img src="./profile/pin-vortex.svg"/>
   </a>
 </p>
 
@@ -280,10 +280,10 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=caiocv18&bg_color=1a0b2e&color=ff6ec7&line=00f5ff&point=ffce5c&area=true&hide_border=true&radius=10"/>
 </p>
 
-### 🐍 Contributions
+### 🌌 Always coding
 
 <p align="center">
-  <img alt="snake animation" src="https://raw.githubusercontent.com/caiocv18/caiocv18/output/github-contribution-grid-snake-dark.svg"/>
+  <img alt="synthwave coding grid" src="./profile/synthwave-grid.svg"/>
 </p>
 
 ### 🛸 Featured repos
@@ -308,8 +308,8 @@
   <a href="https://github.com/caiocv18/alura_agenda">
     <img src="./profile/pin-alura_agenda.svg"/>
   </a>
-  <a href="https://github.com/caiocv18/agent-code-cli-java">
-    <img src="./profile/pin-agent-code-cli-java.svg"/>
+  <a href="https://github.com/caiocv18/vortex">
+    <img src="./profile/pin-vortex.svg"/>
   </a>
 </p>
 

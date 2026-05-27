@@ -76,12 +76,12 @@ jobs:
           path: profile/pin-alura_agenda.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate pin - agent-code-cli-java
+      - name: Generate pin - vortex
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: pin
-          options: 'username=caiocv18&repo=agent-code-cli-java&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff'
-          path: profile/pin-agent-code-cli-java.svg
+          options: 'username=caiocv18&repo=vortex&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff'
+          path: profile/pin-vortex.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit & push

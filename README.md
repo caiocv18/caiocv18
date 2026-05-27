@@ -54,8 +54,8 @@
 
 <p>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,spring,hibernate&theme=dark" height="48"/></a>
-  <a href="https://quarkus.io"><img src="https://img.shields.io/badge/Quarkus-1a0b2e?style=for-the-badge&logo=quarkus&logoColor=ff6ec7&labelColor=1a0b2e" height="48"/></a>
-  <a href="https://kafka.apache.org"><img src="https://img.shields.io/badge/Apache_Kafka-1a0b2e?style=for-the-badge&logo=apachekafka&logoColor=00f5ff&labelColor=1a0b2e" height="48"/></a>
+  <a href="https://quarkus.io"><img src="./profile/icon-quarkus.svg" height="48" alt="Quarkus"/></a>
+  <a href="https://kafka.apache.org"><img src="./profile/icon-kafka.svg" height="48" alt="Apache Kafka"/></a>
 </p>
 
 **Cloud & Infra**
@@ -216,8 +216,8 @@
 
 <p>
   <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,spring,hibernate&theme=dark" height="48"/></a>
-  <a href="https://quarkus.io"><img src="https://img.shields.io/badge/Quarkus-1a0b2e?style=for-the-badge&logo=quarkus&logoColor=ff6ec7&labelColor=1a0b2e" height="48"/></a>
-  <a href="https://kafka.apache.org"><img src="https://img.shields.io/badge/Apache_Kafka-1a0b2e?style=for-the-badge&logo=apachekafka&logoColor=00f5ff&labelColor=1a0b2e" height="48"/></a>
+  <a href="https://quarkus.io"><img src="./profile/icon-quarkus.svg" height="48" alt="Quarkus"/></a>
+  <a href="https://kafka.apache.org"><img src="./profile/icon-kafka.svg" height="48" alt="Apache Kafka"/></a>
 </p>
 
 **Cloud & Infra**

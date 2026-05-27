@@ -1,23 +1,3 @@
-<!--
-═══════════════════════════════════════════════════════════════════════
-  SELF-HOST github-readme-stats (caso a instância pública quebre)
-═══════════════════════════════════════════════════════════════════════
-  Stats cards, top-langs e pin cards usam https://github-readme-stats.vercel.app
-  Quando essa instância pausa (HTTP 503 DEPLOYMENT_PAUSED), os widgets quebram.
-
-  Setup do próprio Vercel (~15min, uma vez só):
-    1. Fork: https://github.com/anuraghazra/github-readme-stats
-    2. Vercel → New Project → importa o fork
-    3. Env var PAT_1 = Personal Access Token do GitHub
-       Criar em: https://github.com/settings/tokens/new
-       Scope: read:user + repo (apenas leitura)
-    4. Deploy → URL: https://github-readme-stats-xxx.vercel.app
-    5. Substituir aqui todas as ocorrências de:
-         https://github-readme-stats.vercel.app
-       pela URL deployed.
-═══════════════════════════════════════════════════════════════════════
--->
-
 <a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:ff6ec7,100:00f5ff&height=220&section=header&text=Caio%20Vinicius&fontSize=70&fontColor=ffce5c&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%E2%80%A2%20Cloud&descSize=18&descAlignY=58&descAlign=50" width="100%"/></a>
 
 <p align="center">
@@ -72,7 +52,11 @@
 
 **Backend**
 
-[![Backend](https://skillicons.dev/icons?i=java,spring,quarkus,hibernate,kafka&theme=dark)](https://skillicons.dev)
+<p>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,spring,hibernate&theme=dark" height="48"/></a>
+  <a href="https://quarkus.io"><img src="https://img.shields.io/badge/Quarkus-1a0b2e?style=for-the-badge&logo=quarkus&logoColor=ff6ec7&labelColor=1a0b2e" height="48"/></a>
+  <a href="https://kafka.apache.org"><img src="https://img.shields.io/badge/Apache_Kafka-1a0b2e?style=for-the-badge&logo=apachekafka&logoColor=00f5ff&labelColor=1a0b2e" height="48"/></a>
+</p>
 
 **Cloud & Infra**
 
@@ -120,8 +104,8 @@
 ### 📊 Estatísticas
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=caiocv18&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&ring_color=ffce5c&cache_seconds=86400"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiocv18&layout=compact&langs_count=10&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&cache_seconds=86400"/>
+  <img height="180" src="./profile/stats.svg"/>
+  <img height="180" src="./profile/top-langs.svg"/>
 </p>
 
 <p align="center">
@@ -144,26 +128,26 @@
 
 <p align="center">
   <a href="https://github.com/caiocv18/duolibras">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=duolibras&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-duolibras.svg"/>
   </a>
   <a href="https://github.com/caiocv18/projeto-perguntas">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=projeto-perguntas&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-projeto-perguntas.svg"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/caiocv18/xadrez">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=xadrez&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-xadrez.svg"/>
   </a>
   <a href="https://github.com/caiocv18/CRUD-Deposito">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=CRUD-Deposito&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-CRUD-Deposito.svg"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/caiocv18/alura_agenda">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=alura_agenda&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-alura_agenda.svg"/>
   </a>
   <a href="https://github.com/caiocv18/agent-code-cli-java">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=agent-code-cli-java&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-agent-code-cli-java.svg"/>
   </a>
 </p>
 
@@ -230,7 +214,11 @@
 
 **Backend**
 
-[![Backend](https://skillicons.dev/icons?i=java,spring,quarkus,hibernate,kafka&theme=dark)](https://skillicons.dev)
+<p>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,spring,hibernate&theme=dark" height="48"/></a>
+  <a href="https://quarkus.io"><img src="https://img.shields.io/badge/Quarkus-1a0b2e?style=for-the-badge&logo=quarkus&logoColor=ff6ec7&labelColor=1a0b2e" height="48"/></a>
+  <a href="https://kafka.apache.org"><img src="https://img.shields.io/badge/Apache_Kafka-1a0b2e?style=for-the-badge&logo=apachekafka&logoColor=00f5ff&labelColor=1a0b2e" height="48"/></a>
+</p>
 
 **Cloud & Infra**
 
@@ -278,8 +266,8 @@
 ### 📊 Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=caiocv18&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&ring_color=ffce5c&cache_seconds=86400"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiocv18&layout=compact&langs_count=10&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&cache_seconds=86400"/>
+  <img height="180" src="./profile/stats.svg"/>
+  <img height="180" src="./profile/top-langs.svg"/>
 </p>
 
 <p align="center">
@@ -302,26 +290,26 @@
 
 <p align="center">
   <a href="https://github.com/caiocv18/duolibras">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=duolibras&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-duolibras.svg"/>
   </a>
   <a href="https://github.com/caiocv18/projeto-perguntas">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=projeto-perguntas&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-projeto-perguntas.svg"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/caiocv18/xadrez">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=xadrez&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-xadrez.svg"/>
   </a>
   <a href="https://github.com/caiocv18/CRUD-Deposito">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=CRUD-Deposito&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-CRUD-Deposito.svg"/>
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/caiocv18/alura_agenda">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=alura_agenda&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-alura_agenda.svg"/>
   </a>
   <a href="https://github.com/caiocv18/agent-code-cli-java">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=agent-code-cli-java&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+    <img src="./profile/pin-agent-code-cli-java.svg"/>
   </a>
 </p>
 

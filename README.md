@@ -1,3 +1,23 @@
+<!--
+═══════════════════════════════════════════════════════════════════════
+  SELF-HOST github-readme-stats (caso a instância pública quebre)
+═══════════════════════════════════════════════════════════════════════
+  Stats cards, top-langs e pin cards usam https://github-readme-stats.vercel.app
+  Quando essa instância pausa (HTTP 503 DEPLOYMENT_PAUSED), os widgets quebram.
+
+  Setup do próprio Vercel (~15min, uma vez só):
+    1. Fork: https://github.com/anuraghazra/github-readme-stats
+    2. Vercel → New Project → importa o fork
+    3. Env var PAT_1 = Personal Access Token do GitHub
+       Criar em: https://github.com/settings/tokens/new
+       Scope: read:user + repo (apenas leitura)
+    4. Deploy → URL: https://github-readme-stats-xxx.vercel.app
+    5. Substituir aqui todas as ocorrências de:
+         https://github-readme-stats.vercel.app
+       pela URL deployed.
+═══════════════════════════════════════════════════════════════════════
+-->
+
 <a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:ff6ec7,100:00f5ff&height=220&section=header&text=Caio%20Vinicius&fontSize=70&fontColor=ffce5c&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%E2%80%A2%20Cloud&descSize=18&descAlignY=58&descAlign=50" width="100%"/></a>
 
 <p align="center">
@@ -118,14 +138,6 @@
 
 <p align="center">
   <img alt="snake animation" src="https://raw.githubusercontent.com/caiocv18/caiocv18/output/github-contribution-grid-snake-dark.svg"/>
-</p>
-
-### 🏆 Troféus
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=caiocv18&theme=darkhub&no-frame=true&column=6&margin-w=15&margin-h=15"/>
-  </a>
 </p>
 
 ### 🛸 Repos em destaque
@@ -284,14 +296,6 @@
 
 <p align="center">
   <img alt="snake animation" src="https://raw.githubusercontent.com/caiocv18/caiocv18/output/github-contribution-grid-snake-dark.svg"/>
-</p>
-
-### 🏆 Trophies
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=caiocv18&theme=darkhub&no-frame=true&column=6&margin-w=15&margin-h=15"/>
-  </a>
 </p>
 
 ### 🛸 Featured repos

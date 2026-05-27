@@ -22,7 +22,7 @@ jobs:
           github_user_name: caiocv18
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=ff6ec7&color_dots=1a0b2e,00f5ff,ff6ec7,ffce5c,b8c5d6
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=ff6ec7&color_dots=161b22,4a3a6b,ff6ec7,00f5ff,ffce5c
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

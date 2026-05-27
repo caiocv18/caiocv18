@@ -16,10 +16,10 @@
 
 <table>
   <tr>
-    <td width="220" align="center">
-      <img src="https://avatars.githubusercontent.com/caiocv18" width="180" style="border-radius:50%;"/>
+    <td width="240" align="center" valign="middle">
+      <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/caiocv18&h=200&w=200&fit=cover&mask=circle" width="200" alt="Caio Vinicius"/>
     </td>
-    <td>
+    <td valign="middle">
       <h2>Olá, eu sou o Caio 👾</h2>
       <p>
         Engenheiro Backend Sênior com <b>8+ anos</b> de experiência construindo sistemas distribuídos em <b>Java + Spring</b> sobre <b>GCP / AWS</b>. Atuei em <b>utilidade pública</b>, <b>varejo farmacêutico</b> e <b>fintech</b>. Hoje caminhando para <b>Arquiteto de Software</b>.
@@ -30,7 +30,7 @@
 </table>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=720&height=60&lines=Engenheiro+Backend+S%C3%AAnior;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;Arquiteto+de+Software+em+forma%C3%A7%C3%A3o;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=850&height=60&lines=Engenheiro+Backend+S%C3%AAnior;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;Arquiteto+de+Software+em+forma%C3%A7%C3%A3o;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
 </p>
 
 ### 🌟 Sobre mim
@@ -43,6 +43,10 @@
 - 🎓 Bacharel em Ciência da Computação (UCB) + Pós Full-Stack (PUCRS) + Pós Mobile/Flutter (FACON)
 
 > Atuo simultaneamente em projetos PJ para empresas dos setores acima. Por compromissos contratuais, não cito clientes nominalmente — mas a stack abaixo reflete o que entrego em produção todos os dias.
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
+</p>
 
 ### 🛠️ Stack técnica
 
@@ -96,12 +100,18 @@
 ### 📊 Estatísticas
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=caiocv18&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&ring_color=ffce5c"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiocv18&layout=compact&langs_count=10&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=caiocv18&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&ring_color=ffce5c&cache_seconds=86400"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiocv18&layout=compact&langs_count=10&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&cache_seconds=86400"/>
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=caiocv18&hide_border=true&background=1a0b2e&stroke=ff6ec7&ring=ff6ec7&fire=ffce5c&currStreakLabel=ff6ec7&sideLabels=b8c5d6&currStreakNum=00f5ff&sideNums=00f5ff&dates=b8c5d6&excludeDaysLabel=b8c5d6"/>
+</p>
+
+### 📈 Atividade dos últimos 31 dias
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=caiocv18&bg_color=1a0b2e&color=ff6ec7&line=00f5ff&point=ffce5c&area=true&hide_border=true&radius=10"/>
 </p>
 
 ### 🐍 Contribuições
@@ -114,17 +124,36 @@
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=caiocv18&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10&title_color=ff6ec7&text_color=b8c5d6"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=caiocv18&theme=darkhub&no-frame=true&column=6&margin-w=15&margin-h=15"/>
   </a>
 </p>
 
-### 🛸 Projetos em destaque
+### 🛸 Repos em destaque
 
-- [**Duolibras**](https://github.com/caiocv18/duolibras) — App educacional de Libras (TCC UCB, Flutter)
-- [**Quiz Star Wars**](https://github.com/caiocv18/projeto-perguntas) — Quiz temático em Flutter
-- [**Xadrez**](https://github.com/caiocv18/xadrez) — Engine de xadrez em Java puro
-- [**CRUD Depósito**](https://github.com/caiocv18/CRUD-Deposito) — Kotlin / Android
-- [**Agenda de Contatos**](https://github.com/caiocv18/alura_agenda) — Kotlin / Android
+<p align="center">
+  <a href="https://github.com/caiocv18/duolibras">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=duolibras&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+  <a href="https://github.com/caiocv18/projeto-perguntas">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=projeto-perguntas&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/caiocv18/xadrez">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=xadrez&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+  <a href="https://github.com/caiocv18/CRUD-Deposito">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=CRUD-Deposito&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/caiocv18/alura_agenda">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=alura_agenda&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+  <a href="https://github.com/caiocv18/agent-code-cli-java">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=agent-code-cli-java&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+</p>
 
 ### 🌌 Vida além do código
 
@@ -146,16 +175,17 @@
   <a href="https://caiocv18.notion.site/"><img src="https://img.shields.io/badge/Notion-1a0b2e?style=for-the-badge&logo=notion&logoColor=b8c5d6&labelColor=1a0b2e"/></a>
 </p>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:ff6ec7,100:00f5ff&height=80&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:ff6ec7,100:1a0b2e&height=80&section=header" width="100%"/>
 
 ## 🇺🇸 English
 
 <table>
   <tr>
-    <td width="220" align="center">
-      <img src="https://avatars.githubusercontent.com/caiocv18" width="180" style="border-radius:50%;"/>
+    <td width="240" align="center" valign="middle">
+      <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/caiocv18&h=200&w=200&fit=cover&mask=circle" width="200" alt="Caio Vinicius"/>
     </td>
-    <td>
+    <td valign="middle">
       <h2>Hi, I'm Caio 👾</h2>
       <p>
         Senior Backend Engineer with <b>8+ years</b> of experience building distributed systems in <b>Java + Spring</b> on <b>GCP / AWS</b>. I've worked across <b>public utilities</b>, <b>pharma retail</b> and <b>fintech</b>. Currently transitioning into <b>Software Architect</b>.
@@ -166,7 +196,7 @@
 </table>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=720&height=60&lines=Senior+Backend+Engineer;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;Becoming+a+Software+Architect;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=850&height=60&lines=Senior+Backend+Engineer;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;Becoming+a+Software+Architect;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
 </p>
 
 ### 🌟 About me
@@ -179,6 +209,10 @@
 - 🎓 BSc Computer Science (UCB) + Full-Stack postgrad (PUCRS) + Mobile/Flutter postgrad (FACON)
 
 > I currently deliver across **public utilities**, **pharma retail** and **fintech** clients. Due to contractual commitments, I do not name them publicly — but the stack below is what I run in production every day.
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
+</p>
 
 ### 🛠️ Tech stack
 
@@ -232,12 +266,18 @@
 ### 📊 Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=caiocv18&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&ring_color=ffce5c"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiocv18&layout=compact&langs_count=10&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=caiocv18&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&ring_color=ffce5c&cache_seconds=86400"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caiocv18&layout=compact&langs_count=10&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&cache_seconds=86400"/>
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=caiocv18&hide_border=true&background=1a0b2e&stroke=ff6ec7&ring=ff6ec7&fire=ffce5c&currStreakLabel=ff6ec7&sideLabels=b8c5d6&currStreakNum=00f5ff&sideNums=00f5ff&dates=b8c5d6&excludeDaysLabel=b8c5d6"/>
+</p>
+
+### 📈 Activity over the last 31 days
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=caiocv18&bg_color=1a0b2e&color=ff6ec7&line=00f5ff&point=ffce5c&area=true&hide_border=true&radius=10"/>
 </p>
 
 ### 🐍 Contributions
@@ -250,17 +290,36 @@
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=caiocv18&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10&title_color=ff6ec7&text_color=b8c5d6"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=caiocv18&theme=darkhub&no-frame=true&column=6&margin-w=15&margin-h=15"/>
   </a>
 </p>
 
-### 🛸 Featured projects
+### 🛸 Featured repos
 
-- [**Duolibras**](https://github.com/caiocv18/duolibras) — Sign language learning app (UCB capstone, Flutter)
-- [**Star Wars Quiz**](https://github.com/caiocv18/projeto-perguntas) — Themed quiz in Flutter
-- [**Chess**](https://github.com/caiocv18/xadrez) — Chess engine in pure Java
-- [**CRUD Warehouse**](https://github.com/caiocv18/CRUD-Deposito) — Kotlin / Android
-- [**Contact List**](https://github.com/caiocv18/alura_agenda) — Kotlin / Android
+<p align="center">
+  <a href="https://github.com/caiocv18/duolibras">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=duolibras&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+  <a href="https://github.com/caiocv18/projeto-perguntas">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=projeto-perguntas&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/caiocv18/xadrez">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=xadrez&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+  <a href="https://github.com/caiocv18/CRUD-Deposito">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=CRUD-Deposito&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/caiocv18/alura_agenda">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=alura_agenda&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+  <a href="https://github.com/caiocv18/agent-code-cli-java">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=caiocv18&repo=agent-code-cli-java&hide_border=true&bg_color=1a0b2e&title_color=ff6ec7&text_color=b8c5d6&icon_color=00f5ff&cache_seconds=86400"/>
+  </a>
+</p>
 
 ### 🌌 Life beyond code
 
@@ -282,6 +341,24 @@
   <a href="https://caiocv18.notion.site/"><img src="https://img.shields.io/badge/Notion-1a0b2e?style=for-the-badge&logo=notion&logoColor=b8c5d6&labelColor=1a0b2e"/></a>
 </p>
 
----
+<!-- 🎧 Spotify Now Playing — descomentar após setup do widget
+### 🎧 Now Playing
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:ff6ec7,100:1a0b2e&height=120&section=footer&text=Tea%20%E2%9E%9C%20Code&fontSize=24&fontColor=ffce5c&animation=twinkling&fontAlignY=70" width="100%"/>
+<p align="center">
+  <a href="https://open.spotify.com/user/caiocv18">
+    <img src="https://YOUR_DEPLOYED_URL/api/spotify" alt="Spotify Now Playing"/>
+  </a>
+</p>
+
+Setup steps:
+1. Create Spotify App at https://developer.spotify.com/dashboard
+   (Redirect URI: http://127.0.0.1:80/callback)
+2. Note Client ID + Client Secret
+3. Run OAuth flow to obtain refresh_token (scope: user-read-currently-playing,user-read-recently-played)
+4. Fork tthn0/Spotify-Readme → deploy to PythonAnywhere (free) or Vercel
+5. Set env vars CLIENT_ID, CLIENT_SECRET, REFRESH_TOKEN
+6. Replace YOUR_DEPLOYED_URL above and uncomment this block
+-->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:ff6ec7,100:00f5ff&height=80&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:ff6ec7,100:1a0b2e&height=120&section=header&text=Tea%20%E2%9E%9C%20Code&fontSize=24&fontColor=ffce5c&animation=twinkling&fontAlignY=70" width="100%"/>

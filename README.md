@@ -1,4 +1,4 @@
-<a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:ff6ec7,100:00f5ff&height=220&section=header&text=Caio%20Vinicius&fontSize=70&fontColor=ffce5c&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%E2%80%A2%20Cloud&descSize=18&descAlignY=58&descAlign=50" width="100%"/></a>
+<a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:ff6ec7,100:00f5ff&height=220&section=header&text=Caio%20Vin%C3%ADcius&fontSize=70&fontColor=ffce5c&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%E2%80%A2%20Cloud&descSize=18&descAlignY=58&descAlign=50" width="100%"/></a>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=caiocv18&label=PROFILE+VIEWS&color=ff6ec7&style=for-the-badge"/>
@@ -17,7 +17,7 @@
 <table>
   <tr>
     <td width="240" align="center" valign="middle">
-      <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/caiocv18&h=200&w=200&fit=cover&mask=circle" width="200" alt="Caio Vinicius"/>
+      <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/caiocv18&h=200&w=200&fit=cover&mask=circle" width="200" alt="Caio Vinícius"/>
     </td>
     <td valign="middle">
       <h2>Olá, eu sou o Caio 👾</h2>
@@ -30,7 +30,7 @@
 </table>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=850&height=60&lines=Engenheiro+Backend+S%C3%AAnior;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;Arquiteto+de+Software+em+forma%C3%A7%C3%A3o;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=850&height=60&lines=Engenheiro+Backend+S%C3%AAnior;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;Engenheiro+de+IA+%26+Agentes;Arquiteto+de+Software+em+forma%C3%A7%C3%A3o;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
 </p>
 
 ### 🌟 Sobre mim
@@ -39,6 +39,7 @@
 - 🏗️ Sênior caminhando para **Arquiteto de Software**
 - 🌐 Setores: **utilidade pública**, **varejo farmacêutico** e **fintech**
 - ☁️ Especialista em **Java/Spring** sobre **GCP** e **AWS**
+- 🤖 **Engenharia de IA & agentes**: pipelines de agents, skills, prompts e MCP
 - 📚 Aprendiz vitalício: hoje estudando arquitetura, DDD, eventos e AWS DVA-C02
 - 🎓 Bacharel em Ciência da Computação (UCB) + Pós Full-Stack (PUCRS) + Pós Mobile/Flutter (FACON)
 
@@ -46,6 +47,20 @@
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
+</p>
+
+### 🤖 IA & Engenharia de Agentes
+
+- 🧩 Construo **agents, skills e prompts** para pipelines de IA em produção
+- 🔌 Servidores e integrações **MCP** (Model Context Protocol)
+- 🎛️ Engenharia de **contexto e tokens** para LLMs
+- 🛠️ Fluxo diário com **Claude Code · Codex · Gemini CLI**
+
+<p>
+  <a href="https://github.com/anthropics/claude-code"><img src="./profile/icon-claude.svg" height="48" alt="Claude Code"/></a>
+  <a href="https://github.com/openai/codex"><img src="./profile/icon-codex.svg" height="48" alt="OpenAI Codex"/></a>
+  <a href="https://github.com/google-gemini/gemini-cli"><img src="./profile/icon-gemini.svg" height="48" alt="Gemini CLI"/></a>
+  <a href="https://modelcontextprotocol.io"><img src="./profile/icon-mcp.svg" height="48" alt="Model Context Protocol"/></a>
 </p>
 
 ### 🛠️ Stack técnica
@@ -179,7 +194,7 @@
 <table>
   <tr>
     <td width="240" align="center" valign="middle">
-      <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/caiocv18&h=200&w=200&fit=cover&mask=circle" width="200" alt="Caio Vinicius"/>
+      <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/caiocv18&h=200&w=200&fit=cover&mask=circle" width="200" alt="Caio Vinícius"/>
     </td>
     <td valign="middle">
       <h2>Hi, I'm Caio 👾</h2>
@@ -192,7 +207,7 @@
 </table>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=850&height=60&lines=Senior+Backend+Engineer;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;Becoming+a+Software+Architect;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=850&height=60&lines=Senior+Backend+Engineer;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;AI+%26+Agent+Engineer;Becoming+a+Software+Architect;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
 </p>
 
 ### 🌟 About me
@@ -201,6 +216,7 @@
 - 🏗️ Senior engineer transitioning into **Software Architect**
 - 🌐 Domains: **public utilities**, **pharma retail**, **fintech**
 - ☁️ Specialist in **Java/Spring** on **GCP** and **AWS**
+- 🤖 **AI & agent engineering**: agent pipelines, skills, prompts and MCP
 - 📚 Lifelong learner: currently studying architecture, DDD, event-driven systems and AWS Developer Associate
 - 🎓 BSc Computer Science (UCB) + Full-Stack postgrad (PUCRS) + Mobile/Flutter postgrad (FACON)
 
@@ -208,6 +224,20 @@
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
+</p>
+
+### 🤖 AI & Agent Engineering
+
+- 🧩 Building **agents, skills and prompts** for production AI pipelines
+- 🔌 **MCP** (Model Context Protocol) servers & integrations
+- 🎛️ **Context & token** engineering for LLMs
+- 🛠️ Daily flow with **Claude Code · Codex · Gemini CLI**
+
+<p>
+  <a href="https://github.com/anthropics/claude-code"><img src="./profile/icon-claude.svg" height="48" alt="Claude Code"/></a>
+  <a href="https://github.com/openai/codex"><img src="./profile/icon-codex.svg" height="48" alt="OpenAI Codex"/></a>
+  <a href="https://github.com/google-gemini/gemini-cli"><img src="./profile/icon-gemini.svg" height="48" alt="Gemini CLI"/></a>
+  <a href="https://modelcontextprotocol.io"><img src="./profile/icon-mcp.svg" height="48" alt="Model Context Protocol"/></a>
 </p>
 
 ### 🛠️ Tech stack

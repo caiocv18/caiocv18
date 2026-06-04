@@ -30,7 +30,7 @@
 </table>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=850&height=60&lines=Engenheiro+Backend+S%C3%AAnior;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;Engenheiro+de+IA+%26+Agentes;Arquiteto+de+Software+em+forma%C3%A7%C3%A3o;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=850&height=60&lines=Engenheiro+Backend+S%C3%AAnior;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;Sistemas+Ag%C3%AAnticos+%26+Context+Engineering;Arquiteto+de+Software+em+forma%C3%A7%C3%A3o;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
 </p>
 
 ### 🌟 Sobre mim
@@ -39,7 +39,7 @@
 - 🏗️ Sênior caminhando para **Arquiteto de Software**
 - 🌐 Setores: **utilidade pública**, **varejo farmacêutico** e **fintech**
 - ☁️ Especialista em **Java/Spring** sobre **GCP** e **AWS**
-- 🤖 **Engenharia de IA & agentes**: pipelines de agents, skills, prompts e MCP
+- 🤖 **Sistemas agênticos na prática**: refatorei 3 agentes ADK (Google) em produção e construí um agent runtime do zero em Java 25 (+ Rust); context engineering, MCP e inferência local (Ollama)
 - 📚 Aprendiz vitalício: hoje estudando arquitetura, DDD, eventos e AWS DVA-C02
 - 🎓 Bacharel em Ciência da Computação (UCB) + Pós Full-Stack (PUCRS) + Pós Mobile/Flutter (FACON)
 
@@ -49,17 +49,21 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
 </p>
 
-### 🤖 IA & Engenharia de Agentes
+### 🤖 IA & Sistemas Agênticos
 
-- 🧩 Construo **agents, skills e prompts** para pipelines de IA em produção
-- 🔌 Servidores e integrações **MCP** (Model Context Protocol)
-- 🎛️ Engenharia de **contexto e tokens** para LLMs
-- 🛠️ Fluxo diário com **Claude Code · Codex · Gemini CLI**
+> *Arquitetura de IA na prática — **agent loop · harness · Agent Skills · subagentes · MCP**. Não só uso ferramentas de IA: desenho e implemento os sistemas por trás delas.*
+
+- 🧩 **Agentes ADK (Google) em produção**: refatorei 3 agentes num pacote compartilhado `common_stage7` com padrão `ResilientParallelAgent`, callbacks de rastreamento e **guardrails de execução** (allowlist de comandos, timeout, truncation) — 13 testes verdes, padronizados com os stages 0–6
+- 🔧 **Construo harnesses, não só uso**: [`agent-code-cli`](https://github.com/caiocv18/agent-code-cli-java) — agent runtime do zero em **Java 25** (agent loop sobre `StructuredTaskScope`/JEP 505, tools, permission gating, context compaction) + irmão em **Rust**
+- 🎛️ **Context engineering**: gestão de janela, isolamento de contexto entre **subagentes** (trade-off consciente: + tokens por + confiabilidade), sumarização estruturada e prompt caching
+- 🔌 **MCP + inferência local**: **MCP** (Model Context Protocol) como protocolo universal de ferramentas/contexto; modelos locais via **Ollama** integrados aos meus agentes
+- 🛠️ Fluxo diário com **Claude Code · Codex CLI · Gemini CLI · Ollama**
 
 <p>
   <a href="https://github.com/anthropics/claude-code"><img src="./profile/icon-claude.svg" height="48" alt="Claude Code"/></a>
   <a href="https://github.com/openai/codex"><img src="./profile/icon-codex.svg" height="48" alt="OpenAI Codex"/></a>
   <a href="https://github.com/google-gemini/gemini-cli"><img src="./profile/icon-gemini.svg" height="48" alt="Gemini CLI"/></a>
+  <a href="https://ollama.com"><img src="./profile/icon-ollama.svg" height="48" alt="Ollama"/></a>
   <a href="https://modelcontextprotocol.io"><img src="./profile/icon-mcp.svg" height="48" alt="Model Context Protocol"/></a>
 </p>
 
@@ -142,27 +146,19 @@
 ### 🛸 Repos em destaque
 
 <p align="center">
-  <a href="https://github.com/caiocv18/duolibras">
-    <img src="./profile/pin-duolibras.svg"/>
+  <a href="https://github.com/caiocv18/agent-code-cli-java">
+    <img src="./profile/pin-agent-code-cli-java.svg"/>
   </a>
-  <a href="https://github.com/caiocv18/projeto-perguntas">
-    <img src="./profile/pin-projeto-perguntas.svg"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/caiocv18/xadrez">
-    <img src="./profile/pin-xadrez.svg"/>
-  </a>
-  <a href="https://github.com/caiocv18/CRUD-Deposito">
-    <img src="./profile/pin-CRUD-Deposito.svg"/>
+  <a href="https://github.com/caiocv18/agent-code-cli-rust">
+    <img src="./profile/pin-agent-code-cli-rust.svg"/>
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/caiocv18/alura_agenda">
-    <img src="./profile/pin-alura_agenda.svg"/>
-  </a>
   <a href="https://github.com/caiocv18/vortex">
     <img src="./profile/pin-vortex.svg"/>
+  </a>
+  <a href="https://github.com/caiocv18/duolibras">
+    <img src="./profile/pin-duolibras.svg"/>
   </a>
 </p>
 
@@ -207,7 +203,7 @@
 </table>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=850&height=60&lines=Senior+Backend+Engineer;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;AI+%26+Agent+Engineer;Becoming+a+Software+Architect;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=900&color=FF6EC7&center=true&vCenter=true&width=850&height=60&lines=Senior+Backend+Engineer;Java+%2B+Spring+Specialist;Cloud+%26+Distributed+Systems;Agentic+Systems+%26+Context+Engineering;Becoming+a+Software+Architect;Tea+%E2%9E%9C+Code+%F0%9F%8D%B5"/>
 </p>
 
 ### 🌟 About me
@@ -216,7 +212,7 @@
 - 🏗️ Senior engineer transitioning into **Software Architect**
 - 🌐 Domains: **public utilities**, **pharma retail**, **fintech**
 - ☁️ Specialist in **Java/Spring** on **GCP** and **AWS**
-- 🤖 **AI & agent engineering**: agent pipelines, skills, prompts and MCP
+- 🤖 **Agentic systems in practice**: refactored 3 production Google ADK agents and built an agent runtime from scratch in Java 25 (+ Rust); context engineering, MCP and local inference (Ollama)
 - 📚 Lifelong learner: currently studying architecture, DDD, event-driven systems and AWS Developer Associate
 - 🎓 BSc Computer Science (UCB) + Full-Stack postgrad (PUCRS) + Mobile/Flutter postgrad (FACON)
 
@@ -226,17 +222,21 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
 </p>
 
-### 🤖 AI & Agent Engineering
+### 🤖 AI & Agentic Systems
 
-- 🧩 Building **agents, skills and prompts** for production AI pipelines
-- 🔌 **MCP** (Model Context Protocol) servers & integrations
-- 🎛️ **Context & token** engineering for LLMs
-- 🛠️ Daily flow with **Claude Code · Codex · Gemini CLI**
+> *AI architecture in practice — **agent loop · harness · Agent Skills · subagents · MCP**. I don't just use AI tools: I design and build the systems behind them.*
+
+- 🧩 **Production ADK agents (Google)**: refactored 3 agents into a shared `common_stage7` package with a `ResilientParallelAgent` pattern, tracking callbacks and **execution guardrails** (command allowlist, timeout, truncation) — 13 green tests, standardized with stages 0–6
+- 🔧 **I build harnesses, not just use them**: [`agent-code-cli`](https://github.com/caiocv18/agent-code-cli-java) — an agent runtime from scratch in **Java 25** (agent loop on `StructuredTaskScope`/JEP 505, tools, permission gating, context compaction) + a **Rust** sibling
+- 🎛️ **Context engineering**: window management, context isolation across **subagents** (a deliberate trade-off: more tokens for more reliability), structured summarization and prompt caching
+- 🔌 **MCP + local inference**: **MCP** (Model Context Protocol) as the universal tool/context standard; local models via **Ollama** wired into my agents
+- 🛠️ Daily flow with **Claude Code · Codex CLI · Gemini CLI · Ollama**
 
 <p>
   <a href="https://github.com/anthropics/claude-code"><img src="./profile/icon-claude.svg" height="48" alt="Claude Code"/></a>
   <a href="https://github.com/openai/codex"><img src="./profile/icon-codex.svg" height="48" alt="OpenAI Codex"/></a>
   <a href="https://github.com/google-gemini/gemini-cli"><img src="./profile/icon-gemini.svg" height="48" alt="Gemini CLI"/></a>
+  <a href="https://ollama.com"><img src="./profile/icon-ollama.svg" height="48" alt="Ollama"/></a>
   <a href="https://modelcontextprotocol.io"><img src="./profile/icon-mcp.svg" height="48" alt="Model Context Protocol"/></a>
 </p>
 
@@ -319,27 +319,19 @@
 ### 🛸 Featured repos
 
 <p align="center">
-  <a href="https://github.com/caiocv18/duolibras">
-    <img src="./profile/pin-duolibras.svg"/>
+  <a href="https://github.com/caiocv18/agent-code-cli-java">
+    <img src="./profile/pin-agent-code-cli-java.svg"/>
   </a>
-  <a href="https://github.com/caiocv18/projeto-perguntas">
-    <img src="./profile/pin-projeto-perguntas.svg"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/caiocv18/xadrez">
-    <img src="./profile/pin-xadrez.svg"/>
-  </a>
-  <a href="https://github.com/caiocv18/CRUD-Deposito">
-    <img src="./profile/pin-CRUD-Deposito.svg"/>
+  <a href="https://github.com/caiocv18/agent-code-cli-rust">
+    <img src="./profile/pin-agent-code-cli-rust.svg"/>
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/caiocv18/alura_agenda">
-    <img src="./profile/pin-alura_agenda.svg"/>
-  </a>
   <a href="https://github.com/caiocv18/vortex">
     <img src="./profile/pin-vortex.svg"/>
+  </a>
+  <a href="https://github.com/caiocv18/duolibras">
+    <img src="./profile/pin-duolibras.svg"/>
   </a>
 </p>
 

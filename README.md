@@ -167,13 +167,11 @@
 - 🐱 4 gatos · 🐶 3 cachorros (a casa é movimentada)
 - 🎸 John Mayer, Noah Kahan no repeat
 - 🚛 Euro Truck Simulator 2 · ⭐ Star Wars · 🔫 CS:GO · ⚽ Futebol
-- 📓 Vivo no [Notion](https://caiocv18.notion.site/)
 
 ### 📡 Contato
 
 <p align="center">
   <a href="https://github.com/caiocv18"><img src="https://img.shields.io/badge/GitHub-1a0b2e?style=for-the-badge&logo=github&logoColor=ff6ec7&labelColor=1a0b2e"/></a>
-  <a href="https://caiocv18.notion.site/"><img src="https://img.shields.io/badge/Notion-1a0b2e?style=for-the-badge&logo=notion&logoColor=b8c5d6&labelColor=1a0b2e"/></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:ff6ec7,100:00f5ff&height=80&section=footer" width="100%"/>
@@ -334,13 +332,11 @@
 - 🐱 4 cats · 🐶 3 dogs (busy household)
 - 🎸 John Mayer and Noah Kahan on repeat
 - 🚛 Euro Truck Simulator 2 · ⭐ Star Wars · 🔫 CS:GO · ⚽ Football
-- 📓 I live on [Notion](https://caiocv18.notion.site/)
 
 ### 📡 Contact
 
 <p align="center">
   <a href="https://github.com/caiocv18"><img src="https://img.shields.io/badge/GitHub-1a0b2e?style=for-the-badge&logo=github&logoColor=ff6ec7&labelColor=1a0b2e"/></a>
-  <a href="https://caiocv18.notion.site/"><img src="https://img.shields.io/badge/Notion-1a0b2e?style=for-the-badge&logo=notion&logoColor=b8c5d6&labelColor=1a0b2e"/></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:ff6ec7,100:00f5ff&height=80&section=footer" width="100%"/>

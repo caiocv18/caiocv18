@@ -39,11 +39,9 @@
 - 🏗️ Sênior caminhando para **Arquiteto de Software**
 - 🌐 Setores: **utilidade pública**, **varejo farmacêutico** e **fintech**
 - ☁️ Especialista em **Java/Spring** sobre **GCP** e **AWS**
-- 🤖 **Sistemas agênticos na prática**: refatorei 3 agentes ADK (Google) em produção e construí um agent runtime do zero em Java 25 (+ Rust); context engineering, MCP e inferência local (Ollama)
+- 🤖 **Sistemas agênticos na prática**: refatorei 3 agentes ADK (Google) e construí um agent runtime do zero em Java 25 (+ Rust); context engineering, MCP e inferência local (Ollama)
 - 📚 Aprendiz vitalício: hoje estudando arquitetura, DDD, eventos e AWS DVA-C02
 - 🎓 Bacharel em Ciência da Computação (UCB) + Pós Full-Stack (PUCRS) + Pós Mobile/Flutter (FACON)
-
-> Atuo simultaneamente em projetos PJ para empresas dos setores acima. Por compromissos contratuais, não cito clientes nominalmente — mas a stack abaixo reflete o que entrego em produção todos os dias.
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
@@ -53,7 +51,7 @@
 
 > *Arquitetura de IA na prática — **agent loop · harness · Agent Skills · subagentes · MCP**. Não só uso ferramentas de IA: desenho e implemento os sistemas por trás delas.*
 
-- 🧩 **Agentes ADK (Google) em produção**: refatorei 3 agentes num pacote compartilhado `common_stage7` com padrão `ResilientParallelAgent`, callbacks de rastreamento e **guardrails de execução** (allowlist de comandos, timeout, truncation) — 13 testes verdes, padronizados com os stages 0–6
+- 🧩 **Agentes ADK (Google) em ambiente regulado**: consolidei agentes duplicados numa base comum, com paralelismo tolerante a falhas, callbacks de rastreamento e **guardrails de execução** (allowlist de comandos, timeout, truncation de saída)
 - 🔧 **Construo harnesses, não só uso**: [`agent-code-cli`](https://github.com/caiocv18/agent-code-cli-java) — agent runtime do zero em **Java 25** (agent loop sobre `StructuredTaskScope`/JEP 505, tools, permission gating, context compaction) + irmão em **Rust**
 - 🎛️ **Context engineering**: gestão de janela, isolamento de contexto entre **subagentes** (trade-off consciente: + tokens por + confiabilidade), sumarização estruturada e prompt caching
 - 🔌 **MCP + inferência local**: **MCP** (Model Context Protocol) como protocolo universal de ferramentas/contexto; modelos locais via **Ollama** integrados aos meus agentes
@@ -166,7 +164,6 @@
 
 - ⛪ **Católico** praticante
 - ⚜️ **Escoteiro** — valores que carrego para a engenharia
-- 👨‍👩‍👧‍👧 Marido e pai de **duas filhas**
 - 🐱 4 gatos · 🐶 3 cachorros (a casa é movimentada)
 - 🎸 John Mayer, Noah Kahan no repeat
 - 🚛 Euro Truck Simulator 2 · ⭐ Star Wars · 🔫 CS:GO · ⚽ Futebol
@@ -175,10 +172,7 @@
 ### 📡 Contato
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/caiocv18/"><img src="https://img.shields.io/badge/LinkedIn-1a0b2e?style=for-the-badge&logo=linkedin&logoColor=00f5ff&labelColor=1a0b2e"/></a>
   <a href="https://github.com/caiocv18"><img src="https://img.shields.io/badge/GitHub-1a0b2e?style=for-the-badge&logo=github&logoColor=ff6ec7&labelColor=1a0b2e"/></a>
-  <a href="https://www.instagram.com/caiocv18/"><img src="https://img.shields.io/badge/Instagram-1a0b2e?style=for-the-badge&logo=instagram&logoColor=ffce5c&labelColor=1a0b2e"/></a>
-  <a href="https://open.spotify.com/user/caiocv18"><img src="https://img.shields.io/badge/Spotify-1a0b2e?style=for-the-badge&logo=spotify&logoColor=00f5ff&labelColor=1a0b2e"/></a>
   <a href="https://caiocv18.notion.site/"><img src="https://img.shields.io/badge/Notion-1a0b2e?style=for-the-badge&logo=notion&logoColor=b8c5d6&labelColor=1a0b2e"/></a>
 </p>
 
@@ -212,11 +206,9 @@
 - 🏗️ Senior engineer transitioning into **Software Architect**
 - 🌐 Domains: **public utilities**, **pharma retail**, **fintech**
 - ☁️ Specialist in **Java/Spring** on **GCP** and **AWS**
-- 🤖 **Agentic systems in practice**: refactored 3 production Google ADK agents and built an agent runtime from scratch in Java 25 (+ Rust); context engineering, MCP and local inference (Ollama)
+- 🤖 **Agentic systems in practice**: refactored 3 Google ADK agents and built an agent runtime from scratch in Java 25 (+ Rust); context engineering, MCP and local inference (Ollama)
 - 📚 Lifelong learner: currently studying architecture, DDD, event-driven systems and AWS Developer Associate
 - 🎓 BSc Computer Science (UCB) + Full-Stack postgrad (PUCRS) + Mobile/Flutter postgrad (FACON)
-
-> I currently deliver across **public utilities**, **pharma retail** and **fintech** clients. Due to contractual commitments, I do not name them publicly — but the stack below is what I run in production every day.
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
@@ -226,7 +218,7 @@
 
 > *AI architecture in practice — **agent loop · harness · Agent Skills · subagents · MCP**. I don't just use AI tools: I design and build the systems behind them.*
 
-- 🧩 **Production ADK agents (Google)**: refactored 3 agents into a shared `common_stage7` package with a `ResilientParallelAgent` pattern, tracking callbacks and **execution guardrails** (command allowlist, timeout, truncation) — 13 green tests, standardized with stages 0–6
+- 🧩 **ADK agents (Google) in a regulated environment**: consolidated duplicated agents into a shared base, with fault-tolerant parallelism, tracking callbacks and **execution guardrails** (command allowlist, timeout, output truncation)
 - 🔧 **I build harnesses, not just use them**: [`agent-code-cli`](https://github.com/caiocv18/agent-code-cli-java) — an agent runtime from scratch in **Java 25** (agent loop on `StructuredTaskScope`/JEP 505, tools, permission gating, context compaction) + a **Rust** sibling
 - 🎛️ **Context engineering**: window management, context isolation across **subagents** (a deliberate trade-off: more tokens for more reliability), structured summarization and prompt caching
 - 🔌 **MCP + local inference**: **MCP** (Model Context Protocol) as the universal tool/context standard; local models via **Ollama** wired into my agents
@@ -339,7 +331,6 @@
 
 - ⛪ Practicing **Catholic**
 - ⚜️ **Boy Scout** — values I carry into engineering
-- 👨‍👩‍👧‍👧 Husband and father of **two daughters**
 - 🐱 4 cats · 🐶 3 dogs (busy household)
 - 🎸 John Mayer and Noah Kahan on repeat
 - 🚛 Euro Truck Simulator 2 · ⭐ Star Wars · 🔫 CS:GO · ⚽ Football
@@ -348,31 +339,9 @@
 ### 📡 Contact
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/caiocv18/"><img src="https://img.shields.io/badge/LinkedIn-1a0b2e?style=for-the-badge&logo=linkedin&logoColor=00f5ff&labelColor=1a0b2e"/></a>
   <a href="https://github.com/caiocv18"><img src="https://img.shields.io/badge/GitHub-1a0b2e?style=for-the-badge&logo=github&logoColor=ff6ec7&labelColor=1a0b2e"/></a>
-  <a href="https://www.instagram.com/caiocv18/"><img src="https://img.shields.io/badge/Instagram-1a0b2e?style=for-the-badge&logo=instagram&logoColor=ffce5c&labelColor=1a0b2e"/></a>
-  <a href="https://open.spotify.com/user/caiocv18"><img src="https://img.shields.io/badge/Spotify-1a0b2e?style=for-the-badge&logo=spotify&logoColor=00f5ff&labelColor=1a0b2e"/></a>
   <a href="https://caiocv18.notion.site/"><img src="https://img.shields.io/badge/Notion-1a0b2e?style=for-the-badge&logo=notion&logoColor=b8c5d6&labelColor=1a0b2e"/></a>
 </p>
-
-<!-- 🎧 Spotify Now Playing — descomentar após setup do widget
-### 🎧 Now Playing
-
-<p align="center">
-  <a href="https://open.spotify.com/user/caiocv18">
-    <img src="https://YOUR_DEPLOYED_URL/api/spotify" alt="Spotify Now Playing"/>
-  </a>
-</p>
-
-Setup steps:
-1. Create Spotify App at https://developer.spotify.com/dashboard
-   (Redirect URI: http://127.0.0.1:80/callback)
-2. Note Client ID + Client Secret
-3. Run OAuth flow to obtain refresh_token (scope: user-read-currently-playing,user-read-recently-played)
-4. Fork tthn0/Spotify-Readme → deploy to PythonAnywhere (free) or Vercel
-5. Set env vars CLIENT_ID, CLIENT_SECRET, REFRESH_TOKEN
-6. Replace YOUR_DEPLOYED_URL above and uncomment this block
--->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:ff6ec7,100:00f5ff&height=80&section=footer" width="100%"/>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:ff6ec7,100:1a0b2e&height=120&section=header&text=Tea%20%E2%9E%9C%20Code&fontSize=24&fontColor=ffce5c&animation=twinkling&fontAlignY=70" width="100%"/>

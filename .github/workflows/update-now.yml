@@ -21,20 +21,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # A coleta é determinística: o agente recebe o arquivo pronto e não precisa de shell.
+      - name: Collect public activity (last 14 days)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          since=$(date -u -d '14 days ago' +%Y-%m-%dT%H:%M:%SZ)
+          gh api "users/caiocv18/events/public?per_page=100" --jq "[.[]
+            | select(.public and .created_at >= \"$since\")
+            | select(.type == \"PushEvent\" or .type == \"CreateEvent\" or .type == \"ReleaseEvent\" or .type == \"PullRequestEvent\")
+            | select(.repo.name != \"caiocv18/caiocv18\")
+            | {type, repo: .repo.name, at: .created_at,
+               commits: [(.payload.commits // [])[] | .message | split(\"\n\")[0]],
+               release: (.payload.release.name // null),
+               pr: (.payload.pull_request.title // null)}]" > "$RUNNER_TEMP/activity.json"
+          echo "events: $(jq length "$RUNNER_TEMP/activity.json")"
+
       # O agente só edita os dois READMEs; quem abre o PR é o passo seguinte, determinístico.
       - uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          display_report: true
           claude_args: |
             --max-turns 12
-            --allowedTools Read,Edit,Bash(gh api:*)
+            --allowedTools Read,Edit
           prompt: |
             You maintain the "Now" section of the GitHub profile README of caiocv18.
 
-            1. Run `gh api "users/caiocv18/events/public?per_page=100"` and keep only events
-               from the last 14 days on PUBLIC repositories (PushEvent, CreateEvent,
-               ReleaseEvent, PullRequestEvent).
+            1. Read `${{ runner.temp }}/activity.json`: the public events of caiocv18 from the
+               last 14 days (already filtered to public repos, excluding the profile repo).
             2. In README.md, rewrite ONLY the lines between `<!-- NOW:START -->` and
                `<!-- NOW:END -->`. Keep exactly three bullets, same format:
                `- 🔨 **Building:** …`, `- 📚 **Next up:** …`, `- ✍️ **Writing:** …`.

@@ -1,0 +1,65 @@
+name: Update "Now" section
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # segunda, 09:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+
+concurrency:
+  group: update-now
+  cancel-in-progress: true
+
+jobs:
+  now:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      # O agente só edita os dois READMEs; quem abre o PR é o passo seguinte, determinístico.
+      - uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          claude_args: |
+            --max-turns 12
+            --allowedTools Read,Edit,Bash(gh api:*)
+          prompt: |
+            You maintain the "Now" section of the GitHub profile README of caiocv18.
+
+            1. Run `gh api "users/caiocv18/events/public?per_page=100"` and keep only events
+               from the last 14 days on PUBLIC repositories (PushEvent, CreateEvent,
+               ReleaseEvent, PullRequestEvent).
+            2. In README.md, rewrite ONLY the lines between `<!-- NOW:START -->` and
+               `<!-- NOW:END -->`. Keep exactly three bullets, same format:
+               `- 🔨 **Building:** …`, `- 📚 **Next up:** …`, `- ✍️ **Writing:** …`.
+               Each bullet is one line, under 110 characters, plain and factual.
+            3. Apply the same change, translated to Brazilian Portuguese with correct accents,
+               to README.pt-BR.md (`Construindo`, `Próximos`, `Escrevendo`).
+            4. If the public activity does not justify a change, keep a bullet as it is.
+               Never invent work. "Next up" only changes when a public study repo shows it.
+
+            Hard rules:
+            - Do not touch anything outside the two NOW blocks.
+            - Only personal, public work. Never describe work for an employer or client,
+              never mention employers, clients, private repositories, ticket numbers or people.
+            - Never write "in production". No em dash inside sentences.
+            - Do not commit or push; the next workflow step opens the PR.
+
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/update-now
+          delete-branch: true
+          add-paths: |
+            README.md
+            README.pt-BR.md
+          commit-message: "docs: atualiza a seção Now"
+          title: "docs: atualiza a seção Now"
+          body: |
+            Atualização semanal da seção **Now**, gerada a partir da atividade pública dos últimos 14 dias.
+            Revise o texto antes do merge.

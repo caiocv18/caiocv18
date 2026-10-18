@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="t d">
+  <title id="t">Caio Vinícius</title>
+  <desc id="d">Senior Backend Engineer on the way to Software Architect. Java, Spring, Kafka, GCP and AWS.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d0618"/>
+      <stop offset="1" stop-color="#1a0b2e"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffce5c"/>
+      <stop offset="1" stop-color="#ff6ec7"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0b2e" stop-opacity="1"/>
+      <stop offset="1" stop-color="#1a0b2e" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="sunCut">
+      <rect x="0" y="0" width="900" height="150"/>
+    </clipPath>
+    <clipPath id="card">
+      <rect width="900" height="220" rx="14"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="900" height="220" fill="url(#sky)"/>
+    <!-- sol poente com faixas -->
+    <g clip-path="url(#sunCut)" opacity="0.85">
+      <circle cx="740" cy="150" r="78" fill="url(#sun)"/>
+      <rect x="650" y="112" width="180" height="4" fill="#1a0b2e"/>
+      <rect x="650" y="124" width="180" height="6" fill="#1a0b2e"/>
+      <rect x="650" y="137" width="180" height="8" fill="#1a0b2e"/>
+    </g>
+    <!-- grid em perspectiva -->
+    <g stroke="#ff6ec7" stroke-opacity="0.45" stroke-width="1">
+      <line x1="0" y1="150" x2="900" y2="150" stroke="#00f5ff" stroke-opacity="0.9" stroke-width="1.5"/>
+      <line x1="0" y1="156" x2="900" y2="156"/>
+      <line x1="0" y1="164" x2="900" y2="164"/>
+      <line x1="0" y1="175" x2="900" y2="175"/>
+      <line x1="0" y1="190" x2="900" y2="190"/>
+      <line x1="0" y1="210" x2="900" y2="210"/>
+      <line x1="450" y1="150" x2="450" y2="220"/>
+      <line x1="450" y1="150" x2="350" y2="220"/>
+      <line x1="450" y1="150" x2="550" y2="220"/>
+      <line x1="450" y1="150" x2="230" y2="220"/>
+      <line x1="450" y1="150" x2="670" y2="220"/>
+      <line x1="450" y1="150" x2="90" y2="220"/>
+      <line x1="450" y1="150" x2="810" y2="220"/>
+      <line x1="450" y1="150" x2="-80" y2="220"/>
+      <line x1="450" y1="150" x2="980" y2="220"/>
+    </g>
+    <rect x="0" y="150" width="900" height="30" fill="url(#fade)" opacity="0.6"/>
+    <!-- texto -->
+    <text x="48" y="78" font-family="'Fira Code','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="44" font-weight="700" fill="#ffce5c">Caio Vinícius</text>
+    <text x="50" y="112" font-family="'Fira Code','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" fill="#f3e8ff">Senior Backend Engineer <tspan fill="#00f5ff">→</tspan> Software Architect</text>
+    <text x="50" y="138" font-family="'Fira Code','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#b8c5d6">java · spring · kafka · gcp · aws · agentic engineering</text>
+  </g>
+</svg>

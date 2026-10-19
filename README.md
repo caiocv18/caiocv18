@@ -13,7 +13,7 @@
 ## Now
 
 <!-- NOW:START -->
-- 🔨 **Building:** a public repo with the Claude Code skills, hooks and statusline I use every day
+- 🔨 **Building:** open source pull requests to Jackson, Resilience4j and Testcontainers
 - 📚 **Next up:** OCP Java 21 and Kafka (Confluent Fundamentals)
 - ✍️ **Writing:** notes on running coding agents behind tests, gates and human review
 <!-- NOW:END -->

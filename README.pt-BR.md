@@ -13,7 +13,7 @@
 ## Agora
 
 <!-- NOW:START -->
-- 🔨 **Construindo:** um repositório público com as skills, os hooks e a statusline do Claude Code que uso todo dia
+- 🔨 **Construindo:** turnward, um novo repositório público, e PRs open source no Jackson e no pandoc
 - 📚 **Próximos:** OCP Java 21 e Kafka (Confluent Fundamentals)
 - ✍️ **Escrevendo:** notas sobre como rodar agentes de código atrás de testes, gates e revisão humana
 <!-- NOW:END -->
